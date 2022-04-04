@@ -162,6 +162,35 @@ Branch 'main' set up to track remote branch 'main' from 'origin'.
 
 
 ### Step 6
+lauriemclaughlin@Lauries-Air unit1-git-practice % git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   my-steps.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	menu.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+lauriemclaughlin@Lauries-Air unit1-git-practice % git add . 
+lauriemclaughlin@Lauries-Air unit1-git-practice % git commit -m 'starting a menu'
+[main 99b1de3] starting a menu
+ 2 files changed, 40 insertions(+)
+ create mode 100644 menu.txt
+lauriemclaughlin@Lauries-Air unit1-git-practice % git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 1.10 KiB | 1.10 MiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/lnmclaughlin/unit1-git-practice.git
+   61d7d3a..99b1de3  main -> main
 
 
 ### Step 7
