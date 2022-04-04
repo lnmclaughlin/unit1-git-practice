@@ -1,0 +1,128 @@
+### Step 2A
+/Users/lauriemclaughlin
+
+### Step 2B
+cd /Users/lauriemclaughlin/Desktop 
+
+### Step 2C
+cd unit1-git-practice
+
+### Step 2D
+/Users/lauriemclaughlin/Desktop/unit1-git-practice
+
+### Step 2E
+ls 
+
+### Step 2F
+my-steps.txt
+
+### Step 2G
+cd ~
+
+### Step 2H
+lauriemclaughlin@Lauries-Air ~ % 
+
+
+### Step 2I
+Desktop		Documents	Downloads	Library		Movies		Music		Pictures	Public
+
+### Step 2J
+cd ~
+
+### Step 2K
+
+cd /Users/lauriemclaughlin/Desktop
+
+cd unit1-git-practice
+
+### Step 3A
+mkdir veggies
+mkdir meats
+mkdir desserts
+lauriemclaughlin@Lauries-Air unit1-git-practice % ls
+desserts	meats		my-steps.txt	veggies
+
+### Step 3B
+mv desserts sweets
+lauriemclaughlin@Lauries-Air unit1-git-practice % ls
+meats		my-steps.txt	sweets		veggies
+
+### Step 3C
+mkdir proteins
+lauriemclaughlin@Lauries-Air unit1-git-practice % ls
+meats		my-steps.txt	proteins	sweets		veggies
+
+### Step 3D
+
+mv meats proteins
+lauriemclaughlin@Lauries-Air unit1-git-practice % ls
+my-steps.txt	proteins	sweets		veggies
+
+### Step 3E
+
+lauriemclaughlin@Lauries-Air unit1-git-practice % cd veggies
+lauriemclaughlin@Lauries-Air veggies % touch carrot.txt
+lauriemclaughlin@Lauries-Air veggies % touch pea.txt
+lauriemclaughlin@Lauries-Air veggies % ls
+carrot.txt	pea.txt### 
+
+Step 3F
+lauriemclaughlin@Lauries-Air ~ % cd /Users/lauriemclaughlin/Desktop/unit1-git-practice
+lauriemclaughlin@Lauries-Air unit1-git-practice % cd sweets
+lauriemclaughlin@Lauries-Air sweets % touch cookie.txt
+lauriemclaughlin@Lauries-Air sweets % ls
+cookie.txt
+
+
+### Step 3G
+lauriemclaughlin@Lauries-Air sweets % mv cookie.txt donut.txt
+lauriemclaughlin@Lauries-Air sweets % ls
+donut.txt
+
+### Step 3H
+lauriemclaughlin@Lauries-Air sweets % cd ~
+lauriemclaughlin@Lauries-Air ~ % cd /Users/lauriemclaughlin/Desktop/unit1-git-practice
+lauriemclaughlin@Lauries-Air unit1-git-practice % touch thing.txt
+lauriemclaughlin@Lauries-Air unit1-git-practice % ls
+my-steps.txt	proteins	sweets		thing.txt	veggies
+
+### Step 3I
+
+cp thing.txt tofu.txt
+
+### Step 3J
+mv tofu.txt proteins/
+
+### Step 3K
+lauriemclaughlin@Lauries-Air unit1-git-practice %  cp thing.txt crab.txt
+lauriemclaughlin@Lauries-Air unit1-git-practice % ls
+crab.txt	my-steps.txt	proteins	sweets		thing.txt	veggies
+lauriemclaughlin@Lauries-Air unit1-git-practice % mv crab.txt proteins/
+lauriemclaughlin@Lauries-Air unit1-git-practice % cd proteins
+lauriemclaughlin@Lauries-Air proteins % mv crab.txt meats/
+
+### Step 3L
+
+lauriemclaughlin@Lauries-Air unit1-git-practice % rm thing.txt
+
+
+### Step 3M
+lauriemclaughlin@Lauries-Air unit1-git-practice % cp -r veggies plants
+
+
+### Step 3N
+
+lauriemclaughlin@Lauries-Air unit1-git-practice % mkdir drinks
+lauriemclaughlin@Lauries-Air unit1-git-practice % rm -r drinks
+
+### Step 4
+
+
+### Step 5
+
+
+### Step 6
+
+
+### Step 7
+*** DO NOT RECORD STEP 7 ***
